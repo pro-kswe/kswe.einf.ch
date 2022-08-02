@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>KSWE: Ergänzungsfach Informatik</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            // Check for click events on the navbar burger icon
+            $(".navbar-burger").click(function () {
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+
+            });
+        });
+    </script>
+</head>
+<body>
+<section class="hero is-info is-bold">
+    <div class="hero-head">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                   data-target="einfNavBar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="einfNavBar" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#topics">
+                        Themen
+                    </a>
+                    <a class="navbar-item" href="#requirements">
+                        Voraussetzungen
+                    </a>
+                    <a class="navbar-item" href="#contact">
+                        Kontakt
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Ergänzungsfach Informatik
+            </h1>
+            <h2 class="subtitle">
+                Schuljahr 2022/2023, Kantonsschule Wettingen
+            </h2>
+        </div>
+    </div>
+</section>
+<section id="topics" class="section">
+    <h3 class="title is-2 is-size-3-mobile">Themen</h3>
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+            <div class="tile">
+                <div class="tile is-parent">
+                    <article class="tile is-child">
+                        <div class="card bm--card-equal-height">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="ki.jpg" alt="KI to go">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-3 is-size-4-mobile">Neuronale Netze</p>
+                                <p class="subtitle is-5 is-size-6-mobile">selbst programmieren.</p>
+                                <div class="content">
+                                    Neuronale Netze sind Schlüsselelemente des Deep Learning und der Künstlichen
+                                    Intelligenz, die heute zu Erstaunlichem in der Lage sind.
+                                    Sie sind Grundlage vieler Anwendungen im Alltag wie beispielsweise Spracherkennung,
+                                    Gesichtserkennung auf Fotos oder die Umwandlung von Sprache in Text.
+                                    <br> Zunächst lernen Sie die mathematischen Konzepte kennen, die den neuronalen
+                                    Netzen zugrunde liegen.
+                                    <br> Danach geht es in die Praxis: Sie programmieren mit Python Ihr eigenes
+                                    neuronales Netz und bringen ihm bei, handgeschriebene Zahlen zu erkennen.
+                                    <br>
+                                    <ul>
+                                        <li>Lernen / Trainieren mit Daten</li>
+                                        <li>Klassifizieren</li>
+                                        <li>Forward-Propagation / Backward-Propagation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        Schauen Sie die ersten vier Minuten von
+                                        <a href="https://www.youtube.com/watch?v=njKP3FqW3Sk&t=0s">MIT Introduction to Deep Learning</a>,
+                                        um ein Anwendungsbeispiel zu sehen.
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child">
+                        <div class="card bm--card-equal-height">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="enigma.jpg" alt="ENIGMA M4">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-3 is-size-4-mobile">Kryptologie</p>
+                                <p class="subtitle is-5 is-size-6-mobile">Lehre der Geheimschriften.</p>
+                                <div class="content">
+                                    Der heutige elektronische Handel, Online-Shopping oder Online-Banking wären ohne die
+                                    modernen Konzepte der Kryptologie unmöglich. Wir machen einen Spaziergang durch die
+                                    Geschichte der Kryptographie, auf der Suche nach einem sicheren Kryptosystem. Mit
+                                    Knobelaufgaben starten wir in der Antike und enden mit modernen
+                                    Public-Key-Kryptosystemen.
+                                    <br>
+                                    <br>
+                                    <ul>
+                                        <li>Symmetrische Verschlüsslungsverfahren</li>
+                                        <li>Asymmetrische Verschlüsslungsverfahren</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        Die ENIGMA ist ein bekanntes Kryptosystem. Unter
+                                        <a href="https://youtu.be/G2_Q9FoD-oQ">158,962,555,217,826,360,000 (Enigma Machine)</a>,
+                                        finden Sie ein Video, in dem die Funktionsweise erklärt wird.
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    <div class="card bm--card-equal-height">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="oop.jpg" alt="OOP in Python 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-3 is-size-4-mobile">Objektorientierte Programmierung</p>
+                            <p class="subtitle is-5 is-size-6-mobile">Moderne Programmierung in
+                                Python.</p>
+                            <div class="content">
+                                Wir greifen die Grundlagen der Programmierung auf und beschäftigen uns mit einem
+                                modernen Programmierstil: die objektorientierte Programmierung (OOP). Dabei erstellen
+                                wir in Python Klassen, um Objekte zu erstellen. Ein Objekt besitzt Eigenschaften und
+                                Funktionen. Ein Haus kann zum Beispiel als Klasse modelliert werden und dann können
+                                davon verschiedene Objekte (<q>Häuser</q>) erstellt werden.
+                                <figure>
+                                    <img src="objekt.png" alt="Haus Objekt" width="275" height="105">
+                                </figure>
+                                Wir setzen die OOP ein, um ein einfaches Brettspiel zu programmieren.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="tile is-parent is-vertical">
+            <article class="tile is-child">
+                <div class="card bm--card-equal-height">
+                    <div class="card-content">
+                        <div class="columns">
+                            <div class="column has-text-centered">
+                                <figure class="image is-64x64" style="display: inline-block">
+                                    <img src="github.png" alt="GitHub">
+                                </figure>
+                            </div>
+                            <div class="column has-text-centered">
+                                <figure class="image is-64x64" style="display: inline-block">
+                                    <img src="raspberry_pi.png" alt="Raspberry Pi">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column has-text-centered">
+                                <figure class="image is-64x64" style="display: inline-block">
+                                    <img src="markdown.png" alt="Markdown">
+                                </figure>
+                            </div>
+                            <div class="column has-text-centered">
+                                <figure class="image is-64x64" style="display: inline-block">
+                                    <img src="terminal.png" alt="Terminal">
+                                </figure>
+                            </div>
+                        </div>
+                        <p class="title is-3 is-size-4-mobile">Tools</p>
+                        <p class="subtitle is-5 is-size-6-mobile">die das (Computer) Leben
+                            erleichtern.</p>
+                        <div class="content">
+                            Wie veröffentliche oder teile ich den Source Code meines Programms? Wie programmiert
+                            man im Team? Wie installiert man ein Betriebssystem? Welche Möglichkeiten gibt es,
+                            um Software einfach zu verwalten? Wie kann ich einen Ordner erstellen, verschieben
+                            oder umbenennen ohne die Maus zu bedienen? Welche Alternativen gibt es zu Microsoft
+                            Word bzw. Pages?
+                            <br> Diese Fragen klären wir neben den <q>eigentlichen</q> Themen.
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="tile is-child">
+                <div class="card bm--card-equal-height">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="digitaltechnik.png" alt="Prozessor">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-3 is-size-4-mobile">Digitaltechnik</p>
+                        <p class="subtitle is-5 is-size-6-mobile">Strom an
+                            <span class="icon has-text-warning">
+                                        <i class="far fa-lightbulb"></i>
+                                    </span>, Strom aus
+                            <span class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </span>.
+                        </p>
+                        <div class="content">
+                            In der Digitaltechnik kommen viele verschiedene Disziplinen zusammen –
+                            naturwissenschaftliche wie die Physik, geisteswissenschaftliche
+                            wie die Mathematik, ingenieurwissenschaftliche wie die Elektrotechnik, und
+                            schliesslich die Informatik, die Anteile aus all diesen Disziplinen vereinigt.
+                            <br>
+                            <br>
+                            Wir behandeln die Grundlagen der Logik und befassen uns dann damit, wie man einen
+                            Speicher bauen kann. Speicherbauteile verwenden wir dann, um uns die Grundlagen der
+                            Automatentheorie anzueignen.
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="tile is-child">
+                <div class="card bm--card-equal-height">
+                    <div class="card-image has-text-centered">
+                        <figure class="image is-128x128" style="display: inline-block !important;">
+                            <img src="fragezeichen.png" alt="Fragezeichen">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-3 is-size-4-mobile">FAQ</p>
+                        <p class="subtitle is-5 is-size-6-mobile">
+                            <strong>f</strong>requently
+                            <strong>a</strong>sked
+                            <strong>q</strong>uestions
+                        </p>
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <h6 class="title is-6">Welches Vorwissen wird benötigt?</h6>
+                                    <h6 class="subtitle is-6 has-text-weight-normal">
+                                        Wir besprechen zu Beginn eines Themas Ihren Kenntnisstand. Wir
+                                        schliessen anschliessend die Lücken, sodass wir gemeinsam mit der
+                                        Vertiefung beginnen können.
+                                    </h6>
+                                </li>
+                                <li>
+                                    <h6 class="title is-6">Gibt es noch andere Themen?</h6>
+                                    <h6 class="subtitle is-6 has-text-weight-normal">
+                                        Die Themenauswahl ist nicht fix. Sie können auch
+                                        noch im Schuljahr Vorschläge einbringen.
+                                    </h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="requirements" class="section">
+    <h2 class="title is-2 is-size-3-mobile">Voraussetzungen</h2>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child">
+                <article class="message is-warning is-light" style="height: 100%">
+                    <div class="message-header">
+                        <p>Notebook</p>
+                        <span class="icon">
+                            <i class="fas fa-laptop"></i>
+                        </span>
+                    </div>
+                    <div class="message-body">
+                        Sie sollten Ihren Computer <q>im Griff</q> haben und selbstständig folgende Tätigkeiten
+                        erledigen können:
+                        <div class="content">
+                            <ul class="list">
+                                <li>Programm installieren (inkl. Download)</li>
+                                <li>Datei hochladen/herunterladen (Upload/Download)</li>
+                                <li>Ordner erstellen, Dateien umbenennen und verschieben</li>
+                                <li>Routine im Umgang mit Office 365</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child">
+                <article class="message is-light is-info" style="height: 100%">
+                    <div class="message-header">
+                        <p>Programmieren</p>
+                        <span class="icon">
+                            <i class="fas fa-code"></i>
+                        </span>
+                    </div>
+                    <div class="message-body">
+                        Wichtig ist, dass Sie <strong>Freude am Programmieren</strong> haben. Sie sollten in den ersten
+                        beiden Jahren die Grundfertigkeiten der Programmierung mit Python (Variablen, Schleifen,
+                        Funktionen und Bedingungen) behandelt haben. Wir frischen die grundlegenden Programmiertechniken
+                        an den geeigneten Stellen wieder auf.
+                    </div>
+                    <br>
+                    <br>
+                </article>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child">
+                <article class="message is-danger" style="height: 100%">
+                    <div class="message-header">
+                        <p>Mathematik</p>
+                        <span class="icon">
+                            <i class="fas fa-calculator"></i>
+                        </span>
+                    </div>
+                    <div class="message-body">
+                        Die theoretischen Grundlagen einiger Informatik-Konzepte (z.B. neuronale Netze) benötigen
+                        mathematisches Know-How. Wir wenden mathematische Konzepte für konkrete Informatik-Projekte an.
+                        Die dafür notwendigen Konzepte werden gemeinsam erarbeitet und danach eingesetzt. Sie sollten
+                        deshalb für den Einsatz von Mathematik, quasi als Tool, offen sein.
+                        <br>
+                        <br>
+                    </div>
+                </article>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="contact" class="section">
+    <h2 class="title is-2 is-size-3-mobile">Kontakt</h2>
+    <h5 class="subtitle is-5 is-size-6-mobile has-text-weight-normal">
+        Für weitere Fragen steht Ihnen Oliver Probst (pro at kswe dot ch) gerne zur Verfügung. Sie
+        können auch direkt dieses Kontaktformular verwenden.
+    </h5>
+    <form action="mail_handler.php" method="post">
+        <div class="field">
+            <label for="name" class="label">Name</label>
+            <div class="control has-icons-left has-icons-right">
+                <input id="name" name="name" class="input" type="text" placeholder="Vorname und Nachname" required>
+                <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+            </span>
+            </div>
+        </div>
+        <div class="field">
+            <label for="email" class="label">E-Mail</label>
+            <div class="control has-icons-left has-icons-right">
+                <input id="email" name="email" class="input" type="email" placeholder="E-Mailadresse" required>
+                <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            </div>
+        </div>
+        <div class="field">
+            <label for="message" class="label">Nachricht</label>
+            <div class="control">
+                <textarea id="message" name="message" class="textarea" placeholder="Ihre Nachricht"></textarea>
+            </div>
+        </div>
+        <div class="field is-grouped">
+            <div class="control">
+                <button name="submit" type="submit" class="button is-link">Senden</button>
+            </div>
+        </div>
+    </form>
+</section>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <a class="media-left" href="https://www.kswe.ch">
+            <figure>
+                <img src="kswe_Logo_RZ_RGB.png" alt="KSWE Logo" style="height: 75px">
+            </figure>
+        </a>
+        <h6 class="title is-6">
+            Fachschaft Informatik
+        </h6>
+    </div>
+</footer>
+</body>
+</html>
